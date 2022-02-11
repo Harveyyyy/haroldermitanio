@@ -22,7 +22,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: red;
+    background: gray;
 }
 /* navbar styling */
 nav{
@@ -77,14 +77,25 @@ nav.sticky .menu a:hover{
   color: gray;
 }
 .navbar .media-icons a{
-  color: #323232;
+  color: white;
   font-size: 18px;
   margin: 0 6px;
 }
 nav.sticky .media-icons a{
   color: #FFF;
 }
-
+.chat-button{
+  color:white;
+}
+.chat-button:hover{
+  color:red;
+}
+.see-my-works-button{
+  color:white;
+}
+.see-my-works-button:hover{
+  color:red;
+}
 /* Side Navigation Menu Button CSS */
 nav .menu-btn,
 .navbar .menu .cancel-btn{
@@ -98,7 +109,7 @@ nav .menu-btn,
   display: none;
 }
 nav .menu-btn{
-  color: red;
+  color: white;
 }
 nav.sticky .menu-btn{
   color: #FFF;
@@ -111,7 +122,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url("gg2.png") no-repeat;
+  background: url("images/gg2.png") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -248,9 +259,10 @@ section .button button{
   transition: all 0.4s ease;
 }
 section .button button:hover{
-  border-color: ;
+  border-color: red;
   background-color: #fff;
   color: red;
+  color:red;
 }
 
  /* My Skills CSS */
@@ -306,7 +318,12 @@ section .button button:hover{
   font-size: 20px;
   color: #929292;
 }
-
+.about-me-btn{
+  color:white;
+}
+.about-me-btn:hover{
+  color:red;
+}
 /* My Services CSS */
 .services .boxes{
   display: flex;
@@ -439,7 +456,7 @@ footer .text span a:hover{
     position: fixed;
     left: -100%;
     top: 0;
-    background: #0E2431;
+    background: gray;
     height: 100vh;
     max-width: 400px;
     width: 100%;
@@ -494,6 +511,9 @@ footer .text span a:hover{
   .contact .text{
     width: 100%;
 }
+  .home{
+    background: url("images/phone.png") no-repeat;
+  }
 }
 
 @media (max-width: 500px){
@@ -504,7 +524,6 @@ footer .text span a:hover{
     font-size: 33px;
   }
   .skills-details .boxes .per{
-    font-size: 50px;
-    color: red;
+    font-size: 20px;
   }
 }
